@@ -5,7 +5,7 @@ warnings.simplefilter(action="ignore", category=FutureWarning)
 
 # Must be the first Streamlit command
 st.set_page_config(
-    page_title="Sarah Johnson | Data Scientist Portfolio", 
+    page_title="Qinyuan Xiao | Data Scientist Portfolio", 
     layout="wide",
     initial_sidebar_state="expanded",
     page_icon="🌟"
@@ -36,7 +36,7 @@ class MultiApp:
         # Enhanced sidebar with beautiful navigation
         st.sidebar.markdown("""
         <div class="sidebar-header">
-            <h1>🌟 Sarah Johnson</h1>
+            <h1>🌟 Qinyuan Xiao</h1>
             <p>Data Scientist & ML Engineer</p>
         </div>
         """, unsafe_allow_html=True)
@@ -73,13 +73,13 @@ class MultiApp:
         
         st.sidebar.markdown("---")
         
-        # Sidebar footer
+        # Sidebar footer with updated contact information
         st.sidebar.markdown("""
         <div class="sidebar-footer">
             <h3>🔗 Quick Links</h3>
-            <p><a href="mailto:sarah.johnson@example.com">📧 Email</a></p>
-            <p><a href="https://linkedin.com/in/sarahjohnson" target="_blank">💼 LinkedIn</a></p>
-            <p><a href="https://github.com/sarahjohnson" target="_blank">💻 GitHub</a></p>
+            <p><a href="mailto:qinyuanxiao1115@gmail.com">📧 Email</a></p>
+            <p><a href="https://www.linkedin.com/in/qinyuan-xiao-b550142b0/" target="_blank">💼 LinkedIn</a></p>
+            <p><a href="https://github.com/NINEJIN" target="_blank">💻 GitHub</a></p>
         </div>
         """, unsafe_allow_html=True)
 
