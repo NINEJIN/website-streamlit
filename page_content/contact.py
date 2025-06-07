@@ -15,48 +15,12 @@ def contact_page():
     <div class="contact-info">
         <h2>🌐 Get in Touch</h2>
         <p style="font-size: 1.1rem; color: #6C757D; margin-bottom: 2rem;">
-            I'm always excited to discuss new opportunities, collaborations, or just chat about data science and technology. 
-            Feel free to reach out through any of the following channels:
+           I'm always excited to explore new opportunities, collaborate on marketing or business projects, 
+           or simply exchange ideas about branding, strategy, and cross-cultural innovation. 
+           Feel free to reach out through any of the following channels:
         </p>
         
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
-            <div class="contact-item">
-                <span class="contact-icon">📧</span>
-                <div>
-                    <strong>Email</strong><br>
-                    <a href="mailto:sarah.johnson@example.com" style="color: #3498DB;">sarah.johnson@example.com</a><br>
-                    <span style="color: #6C757D; font-size: 0.9rem;">Best for professional inquiries</span>
-                </div>
-            </div>
-            
-            <div class="contact-item">
-                <span class="contact-icon">📱</span>
-                <div>
-                    <strong>Phone</strong><br>
-                    <a href="tel:+11234567890" style="color: #3498DB;">+1 (123) 456-7890</a><br>
-                    <span style="color: #6C757D; font-size: 0.9rem;">Available Mon-Fri, 9 AM - 5 PM ET</span>
-                </div>
-            </div>
-            
-            <div class="contact-item">
-                <span class="contact-icon">💼</span>
-                <div>
-                    <strong>LinkedIn</strong><br>
-                    <a href="https://linkedin.com/in/sarahjohnson" target="_blank" style="color: #3498DB;">linkedin.com/in/sarahjohnson</a><br>
-                    <span style="color: #6C757D; font-size: 0.9rem;">Professional networking & updates</span>
-                </div>
-            </div>
-            
-            <div class="contact-item">
-                <span class="contact-icon">💻</span>
-                <div>
-                    <strong>GitHub</strong><br>
-                    <a href="https://github.com/sarahjohnson" target="_blank" style="color: #3498DB;">github.com/sarahjohnson</a><br>
-                    <span style="color: #6C757D; font-size: 0.9rem;">Code repositories & projects</span>
-                </div>
-            </div>
-        </div>
-    </div>
+        
     """, unsafe_allow_html=True)
 
     st.markdown("---")

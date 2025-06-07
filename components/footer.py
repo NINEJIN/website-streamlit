@@ -10,18 +10,18 @@ def display_footer():
         <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
                 <div>
-                    <h4 style="margin: 0; color: white;">Sarah Johnson</h4>
-                    <p style="margin: 0.5rem 0 0 0; color: #BDC3C7;">数据科学专家 & 机器学习工程师</p>
+                    <h4 style="margin: 0; color: white;">Qinyuan Xiao</h4>
+                    <p style="margin: 0.5rem 0 0 0; color: #BDC3C7;">Master in Marketing</p>
                 </div>
                 <div style="text-align: right;">
                     <p style="margin: 0; color: #BDC3C7;">
-                        © {current_year} Sarah Johnson | 
-                        <a href="mailto:sarah.johnson@example.com" style="color: #3498DB; text-decoration: none;">
-                            📧 联系我
+                        © {current_year} Qinyuan Xiao | 
+                        <a href="mailto:qinyuanxiao1115@gmail.com" style="color: #3498DB; text-decoration: none;">
+                            📧 Contact Me
                         </a>
                     </p>
                     <p style="margin: 0.5rem 0 0 0; font-size: 0.8rem; color: #95A5A6;">
-                        最后更新: {datetime.now().strftime("%Y年%m月")}
+                        Last Updated: {datetime.now().strftime("%B %Y")}
                     </p>
                 </div>
             </div>

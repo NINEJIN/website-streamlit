@@ -6,7 +6,7 @@ def home_page():
     # Hero Section
     st.markdown("""
     <div class="fade-in-up">
-        <h1>🌟 Sarah Johnson</h1>
+        <h1>🌟 Qinyuan Xiao</h1>
         <p style="text-align: center; font-size: 1.4rem; color: #6C757D; margin-bottom: 3rem;">
             Data Scientist | Machine Learning Engineer | Innovation Driver
         </p>
@@ -17,7 +17,7 @@ def home_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        image_path = os.path.join("static", "images", "image.png")
+        image_path = os.path.join("static", "images", "iamge.png")
         if os.path.exists(image_path):
             image = Image.open(image_path)
             st.markdown('<div class="profile-container float">', unsafe_allow_html=True)
@@ -48,7 +48,7 @@ def home_page():
             <span class="contact-icon">📧</span>
             <div>
                 <strong>Email</strong><br>
-                <a href="mailto:sarah.johnson@example.com" style="color: #3498DB;">sarah.johnson@example.com</a>
+                <a href="mailto:qinyuanxiao1115@gmail.com" style="color: #3498DB;">qinyuanxiao1115@gmail.com</a>
             </div>
         </div>
     </div>
@@ -61,19 +61,18 @@ def home_page():
     <div class="experience-card fade-in-up">
         <h2>🚀 About Me</h2>
         <p style="font-size: 1.2rem; line-height: 1.8; color: #2C3E50;">
-            I am a recent Master's graduate in Data Science from the University of XYZ, eager to apply my knowledge 
-            and skills in a professional setting. During my academic journey, I developed a strong foundation in 
-            statistical analysis, machine learning, and data visualization.
+            I am a recent Marketing graduate from The Chinese University of Hong Kong (CUHK), eager to apply the knowledge and skills I have acquired in a dynamic business environment. 
+            Throughout my academic journey, I developed a solid foundation in consumer behavior, brand management, 
+            digital marketing, and data-driven decision-making.
         </p>
         <p style="font-size: 1.2rem; line-height: 1.8; color: #2C3E50;">
-            As part of my master's program, I completed several projects that involved working with real-world datasets 
-            and applying various data science techniques. These projects allowed me to gain hands-on experience in data 
-            preprocessing, exploratory data analysis, model building, and evaluation.
+            During my studies, I worked on several projects that involved market research, campaign planning, and the use of analytics tools to evaluate marketing performance. 
+            These hands-on experiences strengthened my ability to translate insights into actionable strategies and sharpened my communication and teamwork skills.
         </p>
         <p style="font-size: 1.2rem; line-height: 1.8; color: #2C3E50;">
-            I am passionate about leveraging data to drive insights and make informed decisions. I am a quick learner, 
-            a collaborative team player, and possess strong problem-solving skills. I am excited to contribute my skills 
-            and grow as a data science professional in a dynamic and challenging environment.
+            I am passionate about understanding customer needs and creating impactful marketing solutions. 
+            I am a fast learner, a collaborative team player, and enjoy solving complex problems. 
+            I look forward to contributing to meaningful marketing initiatives and growing as a professional in the industry.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -90,7 +89,7 @@ def home_page():
     with col1:
         st.markdown("""
         <div class="stat-card">
-            <p class="stat-number">5+</p>
+            <p class="stat-number">1</p>
             <p class="stat-label">Projects Completed</p>
         </div>
         """, unsafe_allow_html=True)
@@ -98,7 +97,7 @@ def home_page():
     with col2:
         st.markdown("""
         <div class="stat-card">
-            <p class="stat-number">3</p>
+            <p class="stat-number">2</p>
             <p class="stat-label">Internships</p>
         </div>
         """, unsafe_allow_html=True)
@@ -106,15 +105,15 @@ def home_page():
     with col3:
         st.markdown("""
         <div class="stat-card">
-            <p class="stat-number">85%</p>
-            <p class="stat-label">Model Accuracy</p>
+            <p class="stat-number">3</p>
+            <p class="stat-label">Language</p>
         </div>
         """, unsafe_allow_html=True)
     
     with col4:
         st.markdown("""
         <div class="stat-card">
-            <p class="stat-number">10+</p>
+            <p class="stat-number">5</p>
             <p class="stat-label">Technical Skills</p>
         </div>
         """, unsafe_allow_html=True)
@@ -126,78 +125,12 @@ def home_page():
     <div class="experience-card">
         <h2>💻 Core Skills & Technologies</h2>
         <p style="font-size: 1.1rem; color: #6C757D; margin-bottom: 2rem;">
-            Here are the key technologies and skills I've mastered during my journey in data science and software development.
+            Skilled in market research, digital marketing, and data-driven strategy development, 
+            with hands-on experience in campaign planning and performance analysis. 
+            Strong communicator and team player with a keen eye for consumer insights and brand positioning.
         </p>
     </div>
     """, unsafe_allow_html=True)
     
-    # Skill Categories
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        <div class="project-card">
-            <h3>🔧 Programming & Tools</h3>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        programming_skills = [
-            "Python", "R", "SQL", "JavaScript", "Git", "Docker"
-        ]
-        
-        skills_html = ""
-        for skill in programming_skills:
-            skills_html += f'<span class="skill-tag">{skill}</span>'
-        
-        st.markdown(f'<div style="margin: 1rem 0;">{skills_html}</div>', unsafe_allow_html=True)
-        
-        st.markdown("""
-        <div class="project-card">
-            <h3>🤖 Machine Learning & AI</h3>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        ml_skills = [
-            "Scikit-learn", "TensorFlow", "PyTorch", "Deep Learning", "NLP"
-        ]
-        
-        skills_html = ""
-        for skill in ml_skills:
-            skills_html += f'<span class="skill-tag">{skill}</span>'
-        
-        st.markdown(f'<div style="margin: 1rem 0;">{skills_html}</div>', unsafe_allow_html=True)
-    
-    with col2:
-        st.markdown("""
-        <div class="project-card">
-            <h3>📊 Data & Analytics</h3>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        data_skills = [
-            "Pandas", "NumPy", "Matplotlib", "Seaborn", "Tableau", "Power BI"
-        ]
-        
-        skills_html = ""
-        for skill in data_skills:
-            skills_html += f'<span class="skill-tag">{skill}</span>'
-        
-        st.markdown(f'<div style="margin: 1rem 0;">{skills_html}</div>', unsafe_allow_html=True)
-        
-        st.markdown("""
-        <div class="project-card">
-            <h3>☁️ Cloud & Infrastructure</h3>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        cloud_skills = [
-            "AWS", "Azure", "Google Cloud", "Streamlit", "Flask"
-        ]
-        
-        skills_html = ""
-        for skill in cloud_skills:
-            skills_html += f'<span class="skill-tag">{skill}</span>'
-        
-        st.markdown(f'<div style="margin: 1rem 0;">{skills_html}</div>', unsafe_allow_html=True)
 
     st.markdown("---") 

@@ -32,7 +32,7 @@ def resume_page():
             st.download_button(
                 label="📥 Download Resume PDF",
                 data=PDFbyte,
-                file_name="Sarah_Johnson_Resume.pdf",
+                file_name="resume.pdf",
                 mime='application/octet-stream',
                 use_container_width=True
             )
@@ -45,7 +45,7 @@ def resume_page():
     st.markdown("""
     <div class="resume-section">
         <div style="text-align: center; margin-bottom: 2rem;">
-            <h1 style="margin: 0; color: #2C3E50;">Sarah Johnson</h1>
+            <h1 style="margin: 0; color: #2C3E50;">Qinyuan Xiao</h1>
             <p style="font-size: 1.3rem; color: #3498DB; margin: 0.5rem 0;">Data Scientist & Machine Learning Engineer</p>
         </div>
     </div>
@@ -60,7 +60,7 @@ def resume_page():
                 <span class="contact-icon">📧</span>
                 <div>
                     <strong>Email</strong><br>
-                    <a href="mailto:sarah.johnson@example.com">sarah.johnson@example.com</a>
+                    <a href="mailto:qinyuanxiao1115@gmail.com">qinyuanxiao1115@gmail.com</a>
                 </div>
             </div>
             <div class="contact-item">
@@ -74,14 +74,14 @@ def resume_page():
                 <span class="contact-icon">💼</span>
                 <div>
                     <strong>LinkedIn</strong><br>
-                    <a href="https://linkedin.com/in/sarahjohnson" target="_blank">linkedin.com/in/sarahjohnson</a>
+                    <a href="https://www.linkedin.com/in/qinyuan-xiao-b550142b0/" target="_blank">linkedin.com/in/qinyuan-xiao-b550142b0/</a>
                 </div>
             </div>
             <div class="contact-item">
                 <span class="contact-icon">💻</span>
                 <div>
                     <strong>GitHub</strong><br>
-                    <a href="https://github.com/sarahjohnson" target="_blank">github.com/sarahjohnson</a>
+                    <a href="https://github.com/NINEJIN" target="_blank">github.com/NINEJIN</a>
                 </div>
             </div>
             <div class="contact-item">
@@ -100,10 +100,9 @@ def resume_page():
     <div class="resume-section">
         <h2>🎯 Professional Summary</h2>
         <p style="font-size: 1.1rem; line-height: 1.8; color: #2C3E50;">
-            Highly skilled data scientist with over 3 years of experience in developing scalable machine learning solutions. 
-            Proven ability to analyze complex datasets, build predictive models, and translate business requirements into 
-            technical solutions. Seeking a challenging role to utilize my expertise in data science, machine learning, 
-            and statistical analysis to drive business insights and innovation.
+           Marketing graduate student at The Chinese University of Hong Kong with a solid foundation in business administration and international exposure through studies at UC Berkeley. 
+           Experienced in marketing strategy, social media operations, and industry research through internships at leading firms such as CICC and Yuehai Group. 
+           Strong analytical and communication skills, with a passion for combining data insights and creative thinking to drive brand growth and community engagement.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -118,25 +117,25 @@ def resume_page():
     # Experience Timeline
     experiences = [
         {
-            "title": "Data Science Intern",
-            "company": "TechCorp Inc.",
-            "period": "June 2021 – August 2021",
+            "title": "Marketing Intern",
+            "company": "Guangdong Yuehai Industrial Park Investment Holdings Co., Ltd.",
+            "period": "March 2023 – May 2023",
             "responsibilities": [
-                "Developed and maintained machine learning models using Python and TensorFlow",
-                "Improved model performance by 30% through feature engineering and hyperparameter tuning",
-                "Led data analysis projects, conducting statistical analysis and presenting insights to stakeholders",
-                "Collaborated with cross-functional teams to define project requirements and deliverables"
+                "📊 Conducted market research and competitor analysis to support strategic marketing plans",
+                "📈 Assisted in brand development and improved internal marketing management systems",
+                "📱 Managed official social media content and handled external communications",
+                "📂 Analyzed member data to support customer engagement initiatives"
             ]
         },
         {
-            "title": "Research Assistant",
-            "company": "University of XYZ, Department of Computer Science",
-            "period": "January 2021 – May 2021",
+            "title": "Investment Banking Intern",
+            "company": "China International Capital Corporation Limited (CICC)",
+            "period": "July 2021 – August 2021",
             "responsibilities": [
-                "Assisted in natural language processing research projects and algorithm development",
-                "Participated in agile research sprints and contributed to project planning and task estimation",
-                "Implemented machine learning algorithms and conducted model evaluation and validation",
-                "Co-authored research papers and presented findings at academic conferences"
+                "📉 Conducted industry research in the online ride-hailing and energy technology sectors for IPO valuation",
+                "📑 Drafted capital operation proposals and internal financial documents",
+                "🔍 Evaluated investment opportunities and supported project due diligence",
+                "🤝 Collaborated with team members across departments to prepare client presentations"
             ]
         }
     ]
@@ -164,81 +163,26 @@ def resume_page():
         <h2>🎓 Education</h2>
         <div class="education-card">
             <div class="card-header">
-                <h3 class="card-title">Master of Science in Data Science</h3>
-                <p class="card-subtitle">University of XYZ</p>
-                <p class="card-meta">Graduated: May 2022</p>
+                <h3 class="card-title">Master of Science in Marketing</h3>
+                <p class="card-subtitle">The Chinese University of Hong Kong (CUHK)</p>
+                <p class="card-meta">August 2024 – July 2025</p>
             </div>
             <div class="card-content">
-                <p><strong>GPA:</strong> 3.9/4.0</p>
-                <p><strong>Thesis:</strong> "Applying Machine Learning Techniques to Predict Customer Behavior in E-commerce"</p>
-            </div>
-        </div>
-        
-        <div class="education-card">
-            <div class="card-header">
-                <h3 class="card-title">Bachelor of Science in Computer Science</h3>
-                <p class="card-subtitle">ABC University</p>
-                <p class="card-meta">Graduated: May 2020</p>
-            </div>
-            <div class="card-content">
-                <p><strong>GPA:</strong> 3.7/4.0</p>
-                <p><strong>Achievement:</strong> Graduated with Honors</p>
-            </div>
-        </div>
+                    <p><strong>📍 Hong Kong</p>
+                    <p><strong>🏆 GPA: – (currently pursuing)</p>
+                    <p><strong>📚 Relevant Coursework:</strong></p>
+                    <ul style="margin: 1rem 0; padding-left: 2rem; line-height: 1.6;">
+                        <li>Consumer Behavior</li>
+                        <li>Digital & Social Media Marketing</li>
+                        <li>Brand Management</li>
+                        <li>Marketing Analytics</li>
+                        <li>Strategic Marketing</li>
+                        <li>Data-Driven Decision Making</li>
+                    </ul>
+                </div>
     </div>
     """, unsafe_allow_html=True)
 
-    # Skills
-    st.markdown("""
-    <div class="resume-section">
-        <h2>🛠️ Technical Skills</h2>
-    </div>
-    """, unsafe_allow_html=True)
-
-    skill_categories = [
-        {
-            "category": "Programming Languages",
-            "skills": ["Python", "R", "SQL", "JavaScript", "Java"]
-        },
-        {
-            "category": "Machine Learning & AI",
-            "skills": ["scikit-learn", "TensorFlow", "PyTorch", "Keras", "XGBoost"]
-        },
-        {
-            "category": "Data Processing & Analysis",
-            "skills": ["Pandas", "NumPy", "PySpark", "Dask", "Apache Airflow"]
-        },
-        {
-            "category": "Visualization & BI",
-            "skills": ["Matplotlib", "Seaborn", "Plotly", "Tableau", "Power BI"]
-        },
-        {
-            "category": "Cloud & Infrastructure",
-            "skills": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes"]
-        },
-        {
-            "category": "Web Technologies",
-            "skills": ["Django", "Flask", "React", "Node.js", "Streamlit"]
-        }
-    ]
-
-    col1, col2 = st.columns(2)
-    
-    for i, skill_cat in enumerate(skill_categories):
-        col = col1 if i % 2 == 0 else col2
-        
-        with col:
-            st.markdown(f"""
-            <div class="project-card">
-                <h4>{skill_cat['category']}</h4>
-            </div>
-            """, unsafe_allow_html=True)
-            
-            skills_html = ""
-            for skill in skill_cat['skills']:
-                skills_html += f'<span class="skill-tag">{skill}</span>'
-            
-            st.markdown(f'<div style="margin: 1rem 0;">{skills_html}</div>', unsafe_allow_html=True)
 
     # Certifications
     st.markdown("""
@@ -246,48 +190,22 @@ def resume_page():
         <h2>🏅 Certifications</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
             <div class="project-card">
-                <h4>🏅 AWS Certified Data Analytics - Specialty</h4>
-                <p style="color: #6C757D; margin: 0.5rem 0;">Amazon Web Services • March 2022</p>
+                <h4>🏅 Toefl</h4>
+                <p style="color: #6C757D; margin: 0.5rem 0;">Score 103</p>
             </div>
             <div class="project-card">
-                <h4>🏅 TensorFlow Developer Certificate</h4>
-                <p style="color: #6C757D; margin: 0.5rem 0;">Google • January 2022</p>
+                <h4>🏅 IELTS</h4>
+                <p style="color: #6C757D; margin: 0.5rem 0;">Score 7.0</p>
             </div>
             <div class="project-card">
-                <h4>🏅 Azure Data Scientist Associate</h4>
-                <p style="color: #6C757D; margin: 0.5rem 0;">Microsoft • November 2021</p>
+                <h4>🏅 GRE</h4>
+                <p style="color: #6C757D; margin: 0.5rem 0;">Score 328</p>
             </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     # Key Projects
-    st.markdown("""
-    <div class="resume-section">
-        <h2>🎯 Key Projects</h2>
-        
-        <div class="project-card">
-            <h4>🔍 Customer Segmentation Analysis</h4>
-            <p>Developed a comprehensive customer segmentation solution using K-means clustering and RFM analysis, 
-            resulting in 23% increase in targeted marketing campaign effectiveness.</p>
-            <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, Matplotlib, Tableau</p>
-        </div>
-        
-        <div class="project-card">
-            <h4>🤖 Predictive Maintenance System</h4>
-            <p>Built an IoT-based predictive maintenance system using time series analysis and deep learning, 
-            reducing equipment downtime by 23% and maintenance costs by 15%.</p>
-            <p><strong>Technologies:</strong> Python, TensorFlow, Time Series Analysis, IoT, AWS</p>
-        </div>
-        
-        <div class="project-card">
-            <h4>🧠 NLP Customer Support Automation</h4>
-            <p>Created an intelligent text classification system for automatic customer support ticket categorization, 
-            improving response time by 35% and customer satisfaction scores.</p>
-            <p><strong>Technologies:</strong> Python, NLTK, spaCy, BERT, Flask</p>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
 
     # Additional Information
     col1, col2 = st.columns(2)
@@ -312,7 +230,7 @@ def resume_page():
             </div>
         </div>
         """, unsafe_allow_html=True)
-    
+
     with col2:
         st.markdown("""
         <div class="resume-section">
@@ -320,22 +238,22 @@ def resume_page():
             <div class="contact-item">
                 <span class="contact-icon">💻</span>
                 <div>
-                    <strong>Open Source Contributions</strong><br>
-                    <span style="color: #6C757D;">Active contributor to ML libraries</span>
+                    <strong>Travel</strong><br>
+                    <span style="color: #6C757D;">Travel</span>
                 </div>
             </div>
             <div class="contact-item">
                 <span class="contact-icon">📝</span>
                 <div>
-                    <strong>Technical Writing</strong><br>
-                    <span style="color: #6C757D;">Blogging about AI/ML trends</span>
+                    <strong>Skiing</strong><br>
+                    <span style="color: #6C757D;">Skiing</span>
                 </div>
             </div>
             <div class="contact-item">
                 <span class="contact-icon">🏃</span>
                 <div>
                     <strong>Fitness & Outdoor Activities</strong><br>
-                    <span style="color: #6C757D;">Running, hiking, photography</span>
+                    <span style="color: #6C757D;">Communication</span>
                 </div>
             </div>
         </div>
