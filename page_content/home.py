@@ -8,7 +8,7 @@ def home_page():
     <div class="fade-in-up">
         <h1>🌟 Qinyuan Xiao</h1>
         <p style="text-align: center; font-size: 1.4rem; color: #6C757D; margin-bottom: 3rem;">
-            Data Scientist | Machine Learning Engineer | Innovation Driver
+            Master in Marketing
         </p>
     </div>
     """, unsafe_allow_html=True)
