@@ -4,7 +4,7 @@
     target_schema='silver',
     unique_key='lga_name',
     strategy='check',
-    check_cols=['lga_name']   -- LGA 名称变动即产生新版本
+    check_cols=['lga_name']
   )
 }}
 select

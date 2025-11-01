@@ -4,7 +4,7 @@
     target_schema='silver',
     unique_key='host_id',
     strategy='timestamp',
-    updated_at='host_since'   -- 若有更合理的更新时间戳字段可替换
+    updated_at='host_since'
   )
 }}
 select

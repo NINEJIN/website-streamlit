@@ -1,0 +1,49 @@
+# ------------------------------
+# dbt Project Configuration
+# ------------------------------
+
+name: 'airbnb_lga_dw'     # 项目名称，可自定义
+version: '1.0'
+config-version: 2
+
+# 告诉 dbt 你的模型目录
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+analysis-paths: ["analyses"]
+
+# 输出数据库 schema 的默认命名规则
+target-path: "target"    # dbt build 输出文件
+clean-targets: ["target", "dbt_modules"]
+
+# 默认数据库和 schema（会被 profile.yml 中的 connection 覆盖）
+profile: 'default'
+
+# 模型配置
+models:
+  airbnb_lga_dw:          # 项目名（必须与上面的 name 一致）
+    bronze:
+      +schema: bronze
+      +materialized: view   # 或 table，如果想持久化
+    silver:
+      +schema: silver
+      +materialized: table
+    gold:
+      +schema: gold
+      +materialized: view   # 数据集市通常是 view
+    # 测试和文档
+    +tags: ['core']
+
+snapshots:
+  +schema: silver
+  +target_schema: silver
+  +unique_key: host_id
+  +materialized: table
+
+# 日志和依赖
+require-dbt-version: [">=1.6.0", "<2.0.0"]
+
+# 可选：限制 dbt Cloud 每次运行线程数
+# threads: 4
