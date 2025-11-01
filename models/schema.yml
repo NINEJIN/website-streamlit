@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: stg_airbnb
+    tests:
+      - not_null:
+          column_name: listing_id
+      - not_null:
+          column_name: host_id
+
+  - name: dim_host
+    columns:
+      - name: host_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_listing_monthly
+    columns:
+      - name: listing_id
+        tests: [not_null]
+      - name: host_id
+        tests:
+          - relationships:
+              to: ref('dim_host')
+              field: host_id
